@@ -11,6 +11,7 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align:center;
             padding: 20px;
+           
         }
         .nav{
             color: white;
@@ -20,13 +21,17 @@
             width:100%;
             text-align: center;
             background-color: #12659c;
-            padding: 5px;
+            padding: 3px;
             color:rgb(255, 255, 255);
+            border-style: solid;
+            border-color: black;
+          
              
         }
         .FOOD{
             text-align: center;
-            background-color:rgb(145, 145, 241);
+            background-color:rgb(166, 166, 191);
+            border: solid black;
         }
         .table{
             width: 70%;
@@ -39,7 +44,9 @@
         }
         .item1{
              text-align: center;
-             background-color:rgb(145, 145, 241);
+             background-color:rgb(0, 0, 0);
+             color: white;
+             font-size: large;
         }
         
     </style>
@@ -47,16 +54,18 @@
 <body>
 <header>
          <h1>WelCome to<br>Onilne Shoping Center</h1>
+         <img src="https://cdn-icons-png.flaticon.com/128/3144/3144456.png"width="50">
 </header>
      <div>
        <table  class="div">
-          <tr>
-              <td><a   class="nav"  href="index.html">HOME</a></td>
-              <td><a   class="nav"  href="Fruits.html">FRUITS</a></td>
-              <td><a  class="nav" href="Grocery.html">GROCERY</a></td>
-              <td><a  class="nav" href="About.html">ABOUT</a></td>
-              <td><a   class="nav"href="Contact.html">CONTACT</a></td>
-          </tr>
+        <tr>
+            <td><img src="https://cdn-icons-png.flaticon.com/128/25/25694.png" width="20px"><a   class="nav"  href="index.html" >HOME</a></td>
+
+            <td><img src="https://cdn-icons-png.flaticon.com/128/601/601984.png"width="20px"><a   class="nav"  href="Fruits.html">FRUITS</a></td>
+           <td><img src="https://cdn-icons-png.flaticon.com/128/2203/2203206.png"width="20px"><a  class="nav" href="Grocery.html">GROCERY</a></td>
+            <td><img src="https://cdn-icons-png.flaticon.com/128/3503/3503827.png"width="20px"><a  class="nav" href="About.html">ABOUT</a></td>
+            <td><img src="https://cdn-icons-png.flaticon.com/128/6596/6596115.png"width="20px"><a   class="nav"href="Contact.html">CONTACT</a></td>
+        </tr>
       </table>
      </div>
 <br>
@@ -78,67 +87,83 @@
         </tr>
 
      </table>
-     </center>
+     
+
       <br>
       <div class="item1">
-        <h2 id="burger">Burgers</h2>
+        <h2 id="Grains">Grains</h2>
        </div>
-
-       <div>
+    <table>
+        <td>
         <ul>
             <li>Rice-----------------<del>Rs100 </del><ins>Rs90</ins></li><br>
             <li>Wheat Flour-----------------<del>Rs80 </del><ins>Rs70</ins></li><br>
             <li>Oats-----------------<del>Rs120 </del><ins>Rs100</ins></li><br>
             <li>Quinoa-----------------<del>Rs200</del><ins>Rs180</ins></li>
         </ul>
-       </div>
-
+    </td>
+    <td><img src="image/grain.jpeg"></td>
+    </table>
+    
        <div class="item1">
         <h2 id="Canned Goods">Canned Goods</h2>
        </div>
 
-       <div>
+<table>
+    <td>
         <ul>
             <li>Canned Tuna-----------------<del>Rs150 </del><ins>Rs 130</ins> </li><br>
             <li>Canned Beans-----------------<del>Rs70 </del><ins>Rs60</ins></li><br>
             <li>Canned Tomatoes-----------------<del>Rs60 </del><ins>Rs50</ins></li><br>
             <li>Canned Soup-----------------<del>Rs80 </del><ins>Rs70</ins></li><br>
-           
-        </ul>
-       </div>
+         </ul>
+        </td>
+        <td><img src="image/canned goods.jpeg"></td>
+    </table>
        <div class="item1">
         <h2 id="Dairy Products">Dairy Products</h2>
        </div>
 
-       <div>
+   <table>
+    <td>
         <ul>
             <li>Butter-----------------<del>Rs 100 </del> <ins>Rs80</ins></li><br>
             <li>Cheese-----------------<del>Rs150 </del><ins>Rs100</ins></li><br>
             <li>Milk-----------------<del>Rs250 </del><ins>Rs220</ins></li><br>
             <li>Yogurt -----------------<del>Rs 100</del><ins>Rs80</ins></li>
         </ul>
-       </div>
+    </td>
+    <td><img src="image/dairy product.jpeg"</td>
+   </table>
        <div class="item1">
         <h2 id="Snacks">Snacks</h2>
        </div>
 
-       <div>
+    <table>
+        <td>
         <ul>
             <li>Nimco-----------------<del>Rs50 </del><ins>Rs30</ins></li><br>
             <li>Lays-----------------<del>Rs70 </del><ins>Rs50</ins></li><br>
             <li>Cheetos -----------------<del>Rs50 </del><ins>Rs30</ins></li><br>
             <li>Kurkure -----------------<del>Rs70</del><ins>Rs50</ins></li>
         </ul>
-       </div>
+        </td>
+        <td><img src="image/snacks.jpeg"></td>
+    </table>
        <div class="item1">
         <h2 id="Spices">Spices</h2>
        </div>
+    <table>
+        <td>
        <ul>
         <li>Paprika-----------------<del>Rs50 </del><ins>Rs30</ins></li><br>
         <li>turmeric-----------------<del>Rs50 </del><ins>Rs30</ins></li><br>
         <li>Salt -----------------<del>Rs50 </del><ins>Rs30</ins></li><br>
         <li>Saffrons -----------------<del>Rs50</del><ins>Rs30</ins></li>
     </ul>
+     </td>
+<td><img src="image/spices.jpeg"></td>
+</table>
        <div>
        
        </div>
@@ -146,15 +171,18 @@
         <h2 id="Beverages">Beverages</h2>
        </div>
 
-       <div>
+      <table>
+        <td>
         <ul>
             <li>Cold Coffee-----------------<del>Rs250 </del><ins>Rs200</ins></li><br>
             <li>Cafe Latte-----------------<del>Rs200</del><ins>Rs170</ins></li><br>
             <li>Peach iced Tea-----------------<del>Rs150 </del><ins>Rs100</ins></li><br>
             <li>Hot Chocolate-----------------<del>Rs220</del><ins>Rs200</ins></li>
         </ul>
-       </div>
-
+        </td>
+        <td><img src="image/beverages.jpeg"</td>
+  </table>
+     </center>
    
 </body>
 </html>
