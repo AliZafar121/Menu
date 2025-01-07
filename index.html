@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,26 +7,33 @@
     <style>
         header{
             background-color: #14506e;
-            color: white;
+            color: rgb(243, 232, 232);
             font-family: Arial, Helvetica, sans-serif;
             text-align:center;
             padding: 20px;
+          
+        
         }
         .nav{
             color: white;
             text-decoration: none;
+            
         }
          .div{
             width:100%;
             text-align: center;
             background-color: #12659c;
-            padding: 5px;
+            padding: 3px;
             color:rgb(255, 255, 255);
-             
-        }
+            border-style: solid;
+            border-color: black;
+
+           }
         .FOOD{
             text-align: center;
-            background-color:rgb(145, 145, 241);
+            background-color:rgb(166, 166, 191);
+            border: solid black;
+          
         }
         .table{
             width: 70%;
@@ -36,27 +43,33 @@
             background-color: #14506e;
             width:60px;
             height:1cm;
+        
         }
         .item1{
              text-align: center;
-             background-color:rgb(145, 145, 241);
+             background-color:rgb(0, 0, 0);
+             color: white;
+             font-size: large;
+             
         }
-        
+      
     </style>
 </head>
 <body>
 <header>
          <h1>WelCome to<br>Onilne Shoping Center</h1>
+         <img src="https://cdn-icons-png.flaticon.com/128/3144/3144456.png"width="50">
 </header>
      <div>
        <table class="div">
-          <tr>
-              <td><a   class="nav"  href="index.html">HOME</a></td>
-              <td><a   class="nav"  href="Fruits.html">FRUITS</a></td>
-              <td><a  class="nav" href="Grocery.html">GROCERY</a></td>
-              <td><a  class="nav" href="About.html">ABOUT</a></td>
-              <td><a  class="nav"  href="Contact.html">CONTACT</a></td>
-          </tr>
+        <tr>
+            <td><img src="https://cdn-icons-png.flaticon.com/128/25/25694.png" width="20px"><a   class="nav"  href="index.html" >HOME</a></td>
+
+            <td><img src="https://cdn-icons-png.flaticon.com/128/601/601984.png"width="20px"><a   class="nav"  href="Fruits.html">FRUITS</a></td>
+           <td><img src="https://cdn-icons-png.flaticon.com/128/2203/2203206.png"width="20px"><a  class="nav" href="Grocery.html">GROCERY</a></td>
+            <td><img src="https://cdn-icons-png.flaticon.com/128/3503/3503827.png"width="20px"><a  class="nav" href="About.html">ABOUT</a></td>
+            <td><img src="https://cdn-icons-png.flaticon.com/128/6596/6596115.png"width="20px"><a   class="nav"href="Contact.html">CONTACT</a></td>
+        </tr>
       </table>
      </div>
 <br>
@@ -78,103 +91,138 @@
         </tr>
 
      </table>
-     </center>
+    
       <br>
       <div class="item1">
         <h2 id="burger">Burgers</h2>
        </div>
-
-       <div>
+    
+       <table>
+        <tr>
+            <td>
         <ul>
             <li>Zinger Burger-----------------<del>Rs300 </del><ins>Rs300</ins></li><br>
             <li>Zinger Cheese Burger-----------------<del>Rs320 </del><ins>Rs280</ins></li><br>
             <li>Chicken  Burger-----------------<del>Rs200 </del><ins>Rs150</ins></li><br>
             <li>Chicken Chesse Burger-----------------<del>Rs220</del><ins>Rs170</ins></li>
         </ul>
-       </div>
+    </td>
+       <td><img src="image/burger.jpeg"></td>
+        </tr>     
+       </table>
 
+    
        <div class="item1">
         <h2 id="bar B.Q">Bar B.Q</h2>
        </div>
-
-       <div>
+       <table>
+       <td>
         <ul>
             <li>Chiken Tikka-----------------<del>Rs500 </del><ins>Rs 450</ins> (Leg/chest)</li><br>
             <li>Chiken Boti-----------------<del>Rs250 </del><ins>Rs200</ins>(Per Plate)</li><br>
             <li>Chiken Afghani Boti-----------------<del>Rs350 </del><ins>Rs300</ins>(Per Plate)</li><br>
             <li>Chicken Malai Boti-----------------<del>Rs210 </del><ins>Rs180</ins>(Per Plate)</li><br>
-           
+        </td>
+        <td> <img src="image/bar b.q.jpeg"></td>  
         </ul>
-       </div>
+
+    </table>
        <div class="item1">
         <h2 id="Rice">Rice</h2>
        </div>
-
-       <div>
+     
+       <table>
+        <td>
         <ul>
             <li>Egg Fried Rice-----------------<del>Rs400 </del> <ins>Rs370</ins>(Per Plate)</li><br>
             <li>Vegetable Fried Rice-----------------<del>Rs400 </del><ins>Rs370</ins>(Per Plate)</li><br>
             <li>Chicken biryani-----------------<del>Rs350 </del><ins>Rs300</ins>(Per Plate)</li><br>
             <li>Beef Biryani -----------------<del>Rs 450</del><ins>Rs400</ins>(Per Plate)</li>
         </ul>
-       </div>
+    </td>
+    <td><img src="image/biryani.jpeg"></td>
+    </table> 
        <div class="item1">
         <h2 id="Ice cream"> Ice Cream</h2>
        </div>
 
-       <div>
+    <table>
+        <td>
         <ul>
             <li>Chocolate Ice cream-----------------<del>Rs150 </del><ins>Rs100</ins>(Per scoop)</li><br>
             <li>Caramel Ice cream-----------------<del>Rs150 </del><ins>Rs100</ins>(Per scoop)</li><br>
             <li>Butterscotch Ice cream -----------------<del>Rs150 </del><ins>Rs100</ins>(Per scoop)</li><br>
             <li>Pistachio Ice cream -----------------<del>Rs150</del><ins>Rs100</ins>(Per scoop)</li>
         </ul>
-       </div>
+    </td>
+    <td><img src="image/ice cream.jpeg"></td>
+    </table>
        <div class="item1">
         <h2 id="Deals">Deals</h2>
        </div>
 
-        <center>
-       <table border 1>
+      
+       <table>
         <tr>
             <td>
                 <h2>Deal 1 <br>Dhamaka Deal</h2>
                 <ul>
-                    <li>Beef Biryani (1 plate)</li>
-                    <li>Chicken Burger with sauce</li>
-                    <li>Chicken Chicken Tikka (1 plate)</li>
-                    <li> Chocolate Ice cream(2 Scoop)</li>
+                  <li>3 Zinger burger with sauce</li>
+                  <li>Pepsi (1.5ml)</li>  
                 </ul>
               <hr><strong>Rs 999/=</strong>
+              <hr>
             </td>
+            <td><img src="image/platter 1.jpeg"></td>
+        </tr>
+        <tr> 
             <td>
                 <h2>Deal 2<br>Jumbo Deal</h2>
                 <ul>
-                    <li> Chicken Biryani (2 plate)</li>
+                    <li> Chicken Burger</li>
                     <li>Chicken cheese Burger</li>
-                    <li>Chicken Malai Boti (1 plate)</li>
-                    <li>Pistachio  Ice cream(2 Scoop)</li>
+                    <li>Churros (1 plate)</li>
+                    <li>Onion Rings</li>
                 </ul>
                 <hr><strong>Rs 1299/=</strong>
+                <hr>
             </td>
+            <td><img src="image/platter 2.jpeg"></td>
             
         </tr>
        </table>
-        </center>
+       
        
        <div class="item1">
         <h2 id="Others">Other</h2>
        </div>
 
-       <div>
-        <ul>
-            <li>Raita-----------------<del>Rs70 </del><ins>Rs50</ins></li><br>
-            <li>Pepsi-----------------<del>Rs100</del><ins>Rs90</ins> (500 ml)</li><br>
-            <li>French Fries-----------------<del>Rs150 </del><ins>Rs100</ins></li><br>
-            <li>Albaik Sauce-----------------<del>Rs70</del><ins>Rs50</ins></li>
-        </ul>
-       </div>
+    <table>
+        <tr>
+         <ul>
+            <td>
 
+            <li>Raita-----------------<del>Rs70 </del><ins>Rs50</ins></li><br></td>
+            <td><img src="image/Raita.jpeg"width="50px" height="60px"></td>
+        </tr>
+        <tr>
+            <td><li>Pepsi-----------------<del>Rs100</del><ins>Rs90</ins> (500 ml)</li><br></td>
+            <td><img src="image/pepsi.jpeg" width="50px" height="60px"></td>
+        </tr>
+        <tr>
+            <td>
+            <li>French Fries-----------------<del>Rs150 </del><ins>Rs100</ins></li><br></td>
+            <td><img src="image/fries.jpeg"width="50px" height="60px"></td>
+        </tr>
+        <tr>
+            <td><li>Albaik Sauce-----------------<del>Rs70</del><ins>Rs50</ins></li></td>
+            <td><img src="image/albaik sauce.jpeg" width="50px" height="60px"></td>
+        </ul>
+        </tr>
+    </table>  
+
+
+</center>
    
 </body>
 </html>
